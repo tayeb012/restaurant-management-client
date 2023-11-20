@@ -42,7 +42,7 @@ const ChefSpecials = () => {
               src="https://t3.ftcdn.net/jpg/01/06/20/40/240_F_106204059_lleqNc7r5xqH4g0Ksm8xSwUr5bh3NiJy.jpg"
             />
             <div className="w-full sm:w-1/2">
-              <p className="text-xl font-sans text-gray-800 leading-relaxed bg-gradient-to-br from-teal-300 to-blue-500 p-6 rounded-lg shadow-xl">
+              <p data-aos="fade-right" className="text-xl font-sans text-gray-800 leading-relaxed bg-gradient-to-br from-teal-300 to-blue-500 p-6 rounded-lg shadow-xl">
                 Next up is Chef Isabella, a connoisseur of exotic spices. Her
                 Recipe of the Month,{" "}
                 <span className="font-bold text-blue-800">
