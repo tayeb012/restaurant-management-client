@@ -16,7 +16,7 @@ const MyOrderFood = () => {
   const url = `/order-food?userEmail=${userEmail}`;
   // const [forModifyQuantityFood, fetForModifyQuantityFood] = useState([]);
   //   console.log(myOrderFood);
-  // http://localhost:12002/order-food/
+  // https://resturant-managment-server-psi.vercel.app/order-food/
 
   useEffect(() => {
     axiosSecure
@@ -31,7 +31,7 @@ const MyOrderFood = () => {
 
   // useEffect(() => {
   //   axios
-  //     .get("http://localhost:12002/all-food")
+  //     .get("https://resturant-managment-server-psi.vercel.app/all-food")
   //     .then((result) => {
   //       fetForModifyQuantityFood(result.data);
   //       setLoading(false);
@@ -73,7 +73,7 @@ const MyOrderFood = () => {
             setMyOrderFood(remainingOrderedFood);
             // axios
             //   .put(
-            //     `http://localhost:12002/all-food-purchase-cancel/id/${_id}`,
+            //     `https://resturant-managment-server-psi.vercel.app/all-food-purchase-cancel/id/${_id}`,
             //     {
             //       quantity: quantity2,
             //     }

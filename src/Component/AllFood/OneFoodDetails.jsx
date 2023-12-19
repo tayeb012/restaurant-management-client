@@ -38,7 +38,7 @@ const OneFoodDetails = () => {
 
   // useEffect(() => {
   //   axios
-  //     .get("http://localhost:12002/order-food")
+  //     .get("https://resturant-managment-server-psi.vercel.app/order-food")
   //     .then((result) => {
   //       setOldOrderedFood(result.data);
   //     })

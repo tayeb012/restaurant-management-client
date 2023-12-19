@@ -53,7 +53,9 @@ const MyCreateRoute = createBrowserRouter([
           </PrivetRoute>
         ),
         loader: ({ params }) =>
-          fetch(`http://localhost:12002/all-food/id/${params.id}`),
+          fetch(
+            `https://resturant-managment-server-psi.vercel.app/all-food/id/${params.id}`
+          ),
       },
       {
         path: "/my-order-food",
@@ -63,7 +65,7 @@ const MyCreateRoute = createBrowserRouter([
           </PrivetRoute>
         ),
         // loader: ({ params }) =>
-        //   fetch(`http://localhost:12002/order-food/${params.userEmail}`),
+        //   fetch(`https://resturant-managment-server-psi.vercel.app/order-food/${params.userEmail}`),
       },
       {
         path: "/my-added-food",
@@ -73,12 +75,13 @@ const MyCreateRoute = createBrowserRouter([
           </PrivetRoute>
         ),
         // loader: ({ params }) =>
-        //   fetch(`http://localhost:12002/my-added-food/${params.userEmail}`),
+        //   fetch(`https://resturant-managment-server-psi.vercel.app/my-added-food/${params.userEmail}`),
       },
       {
         path: "/allFood",
         element: <AllFood></AllFood>,
-        loader: () => fetch("http://localhost:12002/all-food"),
+        loader: () =>
+          fetch("https://resturant-managment-server-psi.vercel.app/all-food"),
       },
       {
         path: "/details/:id",
@@ -88,7 +91,9 @@ const MyCreateRoute = createBrowserRouter([
           </PrivetRoute>
         ),
         loader: ({ params }) =>
-          fetch(`http://localhost:12002/all-food/id/${params.id}`),
+          fetch(
+            `https://resturant-managment-server-psi.vercel.app/all-food/id/${params.id}`
+          ),
       },
       {
         path: "/Order-food/details/:id",
@@ -98,7 +103,9 @@ const MyCreateRoute = createBrowserRouter([
           </PrivetRoute>
         ),
         loader: ({ params }) =>
-          fetch(`http://localhost:12002/Order-food/details/${params.id}`),
+          fetch(
+            `https://resturant-managment-server-psi.vercel.app/Order-food/details/${params.id}`
+          ),
       },
       {
         path: "/update/:id",
@@ -108,7 +115,9 @@ const MyCreateRoute = createBrowserRouter([
           </PrivetRoute>
         ),
         loader: ({ params }) =>
-          fetch(`http://localhost:12002/all-food/id/${params.id}`),
+          fetch(
+            `https://resturant-managment-server-psi.vercel.app/all-food/id/${params.id}`
+          ),
       },
     ],
   },

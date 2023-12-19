@@ -13,7 +13,7 @@ const MyAddedFood = () => {
   const [loading, setLoading] = useState(true);
   const [myAddedFood, setMyOrderFood] = useState([]);
   const url = `/my-added-food?userEmail=${userEmail}`;
-  // http://localhost:12002/my-added-food
+  // https://resturant-managment-server-psi.vercel.app/my-added-food
   // nuper61314@gmail.com
 
   useEffect(() => {
