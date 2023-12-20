@@ -9,7 +9,6 @@ const axiosSecure = axios.create({
   withCredentials: true,
 });
 
-// jkhsdalkfjljasdf
 const useAxiosSecure = () => {
   const { user, logOut } = useContext(AuthContext) || "";
   const navigate = useNavigate();
